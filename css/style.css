@@ -1,0 +1,131 @@
+/*### style Balise ### */
+
+    section{
+        font-family: 'Montserrat', sans-serif;
+        color: #222;
+        padding: 2pc;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        font-size: larger;
+    }
+
+    h1, h2, h3, h4, h5, h6 {font-family: Mulish;}
+
+    nav{font-size: large;}
+
+    a{text-decoration: none;}
+
+    header{
+        padding-top: 15pc;
+        padding-bottom: 15pc;
+        color: white;
+        backdrop-filter: blur(3px);
+        -webkit-backdrop-filter: blur(3px);
+        background-image: url(../image/back-g/background-lycée.jpg);
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .spoiler_flou {
+        filter: blur(10px);
+        transition-property: -webkit-filter;
+        transition-duration: .5s;
+        }
+        .spoiler_flou:hover, .spoiler_flou:focus {
+        filter: blur(0px);
+        }
+
+/* ### Police d'écriture ### */
+
+    @font-face {
+        font-family: "rockmia";
+        src: url("/police/rockmia.ttf");
+    }
+    @font-face {
+        font-family: "BERD";
+        src: url("/police/BERD.otf");
+    }
+    @font-face {
+        font-family: "modern";
+        src: url(/police/modern.ttf);
+    }
+    @font-face {
+        font-family: "Nunito";
+        src: url(/police/Nunito.ttf);
+    }    
+    @font-face {
+        font-family: "Mulish";
+        src: url(/police/Mulish-Bold.ttf);
+    }
+    
+    body{
+        font-family: Nunito;
+        color: #222;
+    }
+    
+    .rock{font-family: rockmia;}
+    .berd{font-family: BERD;}
+    .font1{font-family: modern ;}
+
+/* ### style page ### */
+
+    .center{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .carousel-inner{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .card-title-header{
+        font-size: 4vw;
+    }
+
+    .nav-titel{
+        font-size: 2.5vw;
+    }
+
+/* ### Text Aceuille ### */
+
+    .containerr {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .heading {
+        color: #179bd7;
+        text-shadow: 4px 4px 0px #ffffff;
+        mix-blend-mode: screen;
+        animation: fadeIn 2.5s linear forwards;
+      }
+      
+      @keyframes fadeIn {
+          0% {
+              opacity: 0
+          }
+      
+          100% {
+              opacity: 1;
+          }
+      }
+
+/* ### Suite Style #### */
+
+    a{
+        color: white;
+    }
+
+    .titel-concour{margin-bottom: -10px;}
