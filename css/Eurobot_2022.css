@@ -1,0 +1,7 @@
+@media (min-width: 1075px) {
+    .img-eurobot_2021{width: 300px;}
+    }
+    @media (max-width: 1075px) {
+    .img-eurobot_2021{width: 150px;}
+    }
+img{margin-left: auto; margin-right: auto; display: block;}

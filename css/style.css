@@ -2,6 +2,12 @@
 
     section{
         font-family: 'Montserrat', sans-serif;
+    /* background-image: url(http://events.kpi.kharkov.ua/wp-content/uploads/2018/03/informatsiini-tekhnolohii-u-sviti-elektroniky-213213.jpg); */
+    background: rgb(236, 236, 236);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
         color: #222;
         padding: 2pc;
 
@@ -22,13 +28,20 @@
         padding-top: 15pc;
         padding-bottom: 15pc;
         color: white;
-        backdrop-filter: blur(3px);
-        -webkit-backdrop-filter: blur(3px);
+    }
+    
+    body{
         background-image: url(../image/back-g/background-lycée.jpg);
-        background-attachment: scroll;
-        background-position: center;
+        backdrop-filter: blur(3px);
+        background-position: top;
         background-size: cover;
-        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    hr.style-two {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     }
 
     .spoiler_flou {
@@ -124,8 +137,208 @@
 
 /* ### Suite Style #### */
 
-    a{
-        color: white;
+    .titel-concour{margin-bottom: -10px;}
+    .acceuille-flex{
+        display: flex!important;
+        align-items: center;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .box{margin-top: 15vh;}
+    .titre-A{color: #388d5d;}
+    .titre-R{color: #253b80;}
+    .img-ar{width: 50vw;}
+    .img-inv{width: 30vw; height: 25vw;}
+
+    .inv-flex{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-content: center;
+        align-items: flex-start;
     }
 
-    .titel-concour{margin-bottom: -10px;}
+    /* .box-img-robot{
+        background-color: rgb(36, 36, 36);
+        color: #ffffff;
+        padding: 15px;
+        border-radius: 15px;
+    } */
+
+    .age-bot-img{
+        width: 18vw;
+    }
+
+
+
+
+
+  /* Style suite ! */
+
+
+    footer , .footer{
+    background-image: url(../img/back-g/parallax.jpg);
+    background-color: #212327;
+    background-attachment: fixed;
+    background-position: center;
+    color : white;
+    }
+    
+    
+    /* ### Balise mère ### */
+    
+    .Robotique-titel{
+        color: rgb(255, 255, 255);
+        font-size: x-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #253b80;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: -8px;
+    }
+    
+    .navbar-js{
+    z-index: 1000;
+    }
+    
+    .bd-subnavbar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    
+    /* ### Hester egg ### */
+    
+    .textwidget{
+    font-size: large;
+    border: 2px solid #555;
+    }
+    
+    /* ### fin style 1 ### */
+    
+    .center, .midel{margin-left: auto;margin-right: auto;display: block;}
+    
+    .down-btn{
+        padding-left: 15px;
+        margin-left: -5px;
+    }
+    
+    /* début code page général */
+    
+    /* @media (min-width: 850px){
+        .all{
+        display: flex;
+    
+    }
+    }
+    
+    @media (max-width: 850px) {
+        .all{width: 100%;margin-right: auto;margin-left: auto;}    
+    } */
+    
+    .all{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        margin: 20px;
+    }
+    
+    .center-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .band{height: 20px; width: 100%; background-color: white;}
+    
+    .commentaire{
+    font-size: 15px;
+    text-align : center;
+    color: #555;
+    }
+    
+    
+    .box{
+    background-color: rgba(255,255,255,.8);
+    border: 2px solid #28292c;
+    color: rgb(32, 32, 32);
+    display: block;
+    border-radius: 5px;
+    padding: 2vw;
+    margin-bottom: 5vw;
+    }
+    
+    .bg-box-vip{
+    background-color: rgba(255, 217, 0, 0.404);
+    border: 1.8mm solid gold;
+    border-radius: 15px;
+    color: white;
+    padding-bottom: 100px;
+    margin: 15px;
+    padding: 1vw;
+    max-height: 400px;
+    }
+    .trans{
+    background-color: rgb(255, 255, 255);
+    color: #212327;
+    padding: 5px;
+    border-radius: 50px;
+    border: #212327 solid 1mm;
+    font-size: small;
+    padding-top: 10px;
+    }
+    .trans-band{border-top: #212327 solid 1mm;border-bottom: #212327 solid 1mm;}
+    .bg-box{
+    background-color: rgba(0, 0, 0, 0.616);
+    border: 1.8mm solid black;
+    border-radius: 150px;
+    max-height: 300px;
+    max-height: 290px;
+    padding: 1vw;
+    }
+    .image-cadre{border: 5px double #28292c; border-radius: 15px;}
+    .image{max-width: 80%; margin: 20px; margin-left: auto; margin-right: auto;}
+    .bord-r-5{border-radius: 5;}
+    .bord-r-10{border-radius: 10;}
+    .bord-r-15{border-radius: 15;}
+    
+    /* @media (min-width: 507px){.trans{  margin-top: -65px;}} */
+    
+    .ET{margin-bottom: -4 px;}
+    .info, .projet{margin-top: -4px;}
+    
+    a :not(ul):not(.name-page):not(.ET){text-decoration: none;color: rgb(0, 0, 0);}
+    a{text-decoration: none;color: rgb(255, 255, 255);}
+    
+    
+    
+        .nr{ color: rgb(255, 0, 0); text-shadow: 0 0 2px rgb(255, 0, 0); }
+        .nv{ color: rgb(0, 202, 0); text-shadow: 0 0 5px rgb(18, 214, 0);}
+        .nvf{ color: rgb(0, 177, 0); text-shadow: 0 0 2px rgb(18, 214, 0);}
+        .nb{ color: rgb(0, 81, 255); text-shadow: 0 0 5px rgb(0, 82, 235) ;}
+        .nj{ color: yellow; text-shadow: 0 0 5px yellow, 0 0 10px yellow; }
+        .ng{ color: rgb(255, 183, 0); text-shadow: 0 0 5px rgb(255, 183, 0);}
+        .nbl{text-shadow:  0 0 5px rgb(231, 231, 231);}
+        .link, a:not(.page, .nostyle){ color:rgb(23, 97, 255);}
+        .cn{color: black;}  
+        
+        .rounded-x{border-radius: 15px;}
+    
+    .footer-copyr{
+    font-size: medium; font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .titre-R{color: #253b80;}
+    .titre-A{color: #388d5d;}
+    
+    form.rech{
+    justify-content: center;
+    }
+    
+    .ico{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    }

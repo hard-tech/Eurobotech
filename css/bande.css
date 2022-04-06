@@ -9,3 +9,13 @@
 .bande-back{
     background-color: #252525;
 }
+
+.humbed{
+    /* background-image: url(../image/back-g/Illustration-robotique.png); */
+    background-color: #253b80;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    color: white;
+}

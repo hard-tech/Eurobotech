@@ -1,1 +1,24 @@
-/**/
+@font-face {
+    font-family: "rockmia";
+    src: url("/police/rockmia.ttf");
+  }
+  @font-face {
+    font-family: "BERD";
+    src: url("/police/BERD.otf");
+  }
+  @font-face {
+    font-family: "modern";
+    src: url(/police/modern.ttf);
+  }
+  @font-face {
+    font-family: "Nunito";
+    src: url(/police/Nunito.ttf);
+  }
+  
+  *{
+    font-family: Nunito;
+  }
+  
+  .rock{font-family: rockmia;}
+  .berd{font-family: berd;}
+  .font1{font-family: modern ;}

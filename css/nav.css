@@ -57,20 +57,21 @@
     background-color: #179bd7;
   }
 
-  .navbar-nav{
+  .navbar-nav {
     display: flex!important;
     flex-basis: auto;
-    align-items: center;
     justify-content: center;
     align-content: center;
-  }
+    align-items: flex-start;
+}
 
   li:not(:first-child).nav-style a:hover {
-    border: 2px solid rgb(0, 117, 163);
-    background: rgba(0, 195, 255, 0.4);
-    box-shadow: 0 0 5px 1px #006f9b;
+    /* border: 2px solid rgb(0, 117, 163); */
+    background: #0ba5ec;
+    border-radius: 10px;
+    /* box-shadow: 0 0 5px 1px #006f9b;
     transition-duration: 0.7s;
-    border-bottom: 10px solid #004586;
+    border-bottom: 10px solid #004586; */
 
   }
   
