@@ -90,10 +90,18 @@
     display: flex;
   }
 
-  .Robotique-titeL{
+  .Robotique-titeAR{
     background-color: #253b80;
     margin-bottom: -8px;
     color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  .Robotique-titeL{
+    background-color: #f8f8f8;
+    margin-bottom: -8px;
+    color: rgb(24, 24, 24); 
     padding-bottom: 5px;
     padding-top: 5px;
   }

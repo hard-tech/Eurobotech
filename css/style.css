@@ -1,7 +1,6 @@
 /*### style Balise ### */
 
     section{
-        font-family: 'Montserrat', sans-serif;
     /* background-image: url(http://events.kpi.kharkov.ua/wp-content/uploads/2018/03/informatsiini-tekhnolohii-u-sviti-elektroniky-213213.jpg); */
     background: rgb(236, 236, 236);
     background-position: center;
@@ -9,14 +8,14 @@
     background-size: cover;
     background-attachment: fixed;
         color: #222;
-        padding: 2pc;
 
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-content: center;
-        font-size: larger;
     }
+
+    .all{padding: 2pc;}
 
     h1, h2, h3, h4, h5, h6 {font-family: Mulish;}
 
@@ -25,8 +24,8 @@
     a{text-decoration: none;}
 
     header{
-        padding-top: 15pc;
-        padding-bottom: 15pc;
+        padding-top: 20pc;
+        padding-bottom: 20pc;
         color: white;
     }
     
@@ -86,6 +85,17 @@
     .font1{font-family: modern ;}
 
 /* ### style page ### */
+
+    .bg-antique{
+        background-image: url(https://www.wallpaperflare.com/static/298/464/847/space-robot-minimalism-simple-background-wallpaper.jpg);
+        background-position: bottom;
+        background-size: cover;
+        color: white;
+    }
+    .all-box{
+        background-color: #d4d4d410;
+        border-radius: 5px;
+    }
 
     .center{
         margin-left: auto;
@@ -171,7 +181,13 @@
 
 
 
+    .img-flex-txt{width: 25vw;}
 
+
+    .border-img{
+        border: ridge #212327 2px;
+        border-radius: 8px;
+    }
 
   /* Style suite ! */
 
@@ -191,7 +207,7 @@
         color: rgb(255, 255, 255);
         font-size: x-large;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        background-color: #253b80;
+        background-color: #a77878;
         background-repeat: no-repeat;
         background-size: contain;
         margin-bottom: -8px;
@@ -261,9 +277,9 @@
     
     
     .box{
-    background-color: rgba(255,255,255,.8);
+    /* background-color: rgba(255,255,255,.8);
     border: 2px solid #28292c;
-    color: rgb(32, 32, 32);
+    color: rgb(32, 32, 32); */
     display: block;
     border-radius: 5px;
     padding: 2vw;
