@@ -43,6 +43,10 @@
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     }
 
+    .back-g{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKASB-HxCNowyP2Vk-xGxp6W7lWaLBoCZYNKA9aA0MJa-B_Gj6XsGrI72xNDbZ7oLbqzI&usqp=CAU);
+    }
+
     .spoiler_flou {
         filter: blur(10px);
         transition-property: -webkit-filter;
@@ -94,13 +98,14 @@
 /* ### style page ### */
 
     .bg-antique{
-        background-image: url(https://www.wallpaperflare.com/static/298/464/847/space-robot-minimalism-simple-background-wallpaper.jpg);
-        background-position: bottom;
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20211012/pngtree-square-texture-gradient-gray-abstract-background-image_910870.png);
+        background-position: center;
         background-size: cover;
         color: white;
+        background-attachment: fixed;
     }
     .all-box{
-        background-color: #d4d4d410;
+        background-color: #d4d4d456;
         border-radius: 5px;
     }
 
@@ -177,18 +182,14 @@
         border-radius: 15px;
     } */
 
-    .age-bot-img{
-        width: 18vw;
-    }
-
-
+    .age-bot-img{width: 18vw;}
 
     .img-flex-txt{width: 25vw;}
-
 
     .border-img{
         border: ridge #212327 2px;
         border-radius: 8px;
+        margin-bottom: 30px;
     }
 
   /* Style suite ! */
@@ -259,7 +260,8 @@
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap-reverse;
-        margin: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
     .center-center{
@@ -278,10 +280,10 @@
     }
     
     
-    .box{
-    /* background-color: rgba(255,255,255,.8);
+    .box:not(.nostyle){
+    background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid #28292c;
-    color: rgb(32, 32, 32); */
+    color: rgb(51, 51, 51);
     display: block;
     border-radius: 5px;
     padding: 2vw;
