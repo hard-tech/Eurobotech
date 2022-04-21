@@ -106,11 +106,10 @@
       flex-wrap: nowrap;
       /* flex-direction: column;     */
     }
-
+    .Titre_01{font-size: 60px;}
   }
   
   /* ### Media Max 507px ### */
-  
   @media (max-width: 507px){
     /* .trans{  margin-top: -73px;} */
     .trans-txt{font-size: medium;}
@@ -118,6 +117,16 @@
       .all{font-size: 15px;}
       .container-compte{padding: 15px;}
       .cancelbtn{padding: 5px 9px;font-size: xx-small;}
-      .titre-nav{font-size: 22px;}
+      .titre-nav{font-size: 20px; padding-left: 20px; padding-right: 20px;}
       .Titre_01{font-size: 26px;}
+
+      h2{font-size: 20px;}
+      h3{font-size: 15px;}
+      h4{font-size: 13px;}
+      body{font-size: 10px;}
   }
+
+    @media (min-width: 507px){
+      .titre-nav{padding-left: 40px; padding-right: 40px;}
+      .all{padding: 2pc;}
+    }

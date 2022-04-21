@@ -2,7 +2,7 @@
 
     section{
     /* background-image: url(http://events.kpi.kharkov.ua/wp-content/uploads/2018/03/informatsiini-tekhnolohii-u-sviti-elektroniky-213213.jpg); */
-    background: rgb(236, 236, 236);
+    background: rgb(255, 255, 255);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,9 +15,7 @@
         align-content: center;
     }
 
-    .all{padding: 2pc;}
-
-    h1, h2, h3, h4, h5, h6 {font-family: Mulish;}
+    h1, h2, h3, h4, h5, h6 {font-family: 'Paprika', cursive;}
 
     nav{font-size: large;}
 
@@ -43,10 +41,6 @@
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     }
 
-    .back-g{
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKASB-HxCNowyP2Vk-xGxp6W7lWaLBoCZYNKA9aA0MJa-B_Gj6XsGrI72xNDbZ7oLbqzI&usqp=CAU);
-    }
-
     .spoiler_flou {
         filter: blur(10px);
         transition-property: -webkit-filter;
@@ -55,38 +49,31 @@
         .spoiler_flou:hover, .spoiler_flou:focus {
         filter: blur(0px);
         }
+    .accordion-body{
+        background-image: url(http://holderbat.alsace/wp-content/uploads/2016/04/colorama-colorgrad-fond-de-studio-vinyle-mat-100x170cm-degrade-blanc-noir-1.jpg);
+        background-position: bottom;
+        background-size: contain;
 
+        position: relative;
+        overflow: hidden;
+        transform: rotate(180deg);
+
+        color: white;
+    }
+
+    .box1, .box2, .box4{
+        transform: rotate(180deg);
+      }
+
+    .txt-gold{color: #f7ad0a;}
+    .txt-smog{color: #575757;}
 /* ### Police d'écriture ### */
-
-    @font-face {
-        font-family: "rockmia";
-        src: url("/police/rockmia.ttf");
-    }
-    @font-face {
-        font-family: "BERD";
-        src: url("/police/BERD.otf");
-    }
-    @font-face {
-        font-family: "modern";
-        src: url(/police/modern.ttf);
-    }
-    @font-face {
-        font-family: "Nunito";
-        src: url(/police/Nunito.ttf);
-    }    
-    @font-face {
-        font-family: "Mulish";
-        src: url(/police/Mulish-Bold.ttf);
-    }
     
-    body{
-        font-family: Nunito;
-        color: #222;
-    }
+    body{font-family: 'Baloo Tammudu 2', cursive; color: #222;}
     
     .rock{font-family: rockmia;}
     .berd{font-family: BERD;}
-    .font1{font-family: modern ;}
+    .font1{font-family: 'Bubblegum Sans', cursive;}
 
     .txt-img-flex-01{
         display: flex;
@@ -98,15 +85,16 @@
 /* ### style page ### */
 
     .bg-antique{
-        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20211012/pngtree-square-texture-gradient-gray-abstract-background-image_910870.png);
+        background-image: url(https://nordfranceconstructions.fayat.com/sites/nfc.fayat.com/files/2018-07/dammartin_en_gohelle_nfc_fb_1.jpg);
         background-position: center;
         background-size: cover;
         color: white;
         background-attachment: fixed;
     }
     .all-box{
-        background-color: #d4d4d456;
+        background-color: #ffffffd7;
         border-radius: 5px;
+        color: #179bd7;
     }
 
     .center{
@@ -123,6 +111,31 @@
 
     .nav-titel{
         font-size: 2.5vw;
+    }
+
+    .Titre_01{
+            text-shadow: 4px 3px 0px rgb(22, 22, 22), 9px 8px 0px rgba(0, 0, 0, 0.26);
+    }
+
+    .titel-css-style-1{
+        text-shadow:#e7f6ff 0 -1px 0,
+        #4de8ff 1px 1px 0,
+        #00b5ff 2px 2px 0,
+        #007ec2 3px 3px 0,
+        #007cb2 4px 4px 0,
+        #00606e 5px 5px 0,
+        #333 5px 5px 10px;color:#4be9ff;
+    }
+
+    .titel-css-style-2{
+        text-shadow:  white 0.006em 0.006em 0.007em,
+        #b9b9b9 1px 1px 1px,
+        #b9b9b9 1px 2px 1px,
+        #b9b9b9 1px 3px 1px,
+        #b9b9b9 1px 4px 1px,
+        #b9b9b9 1px 5px 1px,
+        #b9b9b9 1px 6px 1px;
+        color:#333;
     }
 
 /* ### Text Aceuille ### */
@@ -183,8 +196,12 @@
     } */
 
     .age-bot-img{width: 18vw;}
+    .ico-agb{width: 25vw;}
+    .img-flex-txt{
+        width: 45%;
+    }
 
-    .img-flex-txt{width: 25vw;}
+    .progress-bar-striped{padding: 11px;}
 
     .border-img{
         border: ridge #212327 2px;
@@ -276,11 +293,10 @@
     .commentaire{
     font-size: 15px;
     text-align : center;
-    color: #555;
     }
     
     
-    .box:not(.nostyle){
+    /* .box:not(.nostyle){
     background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid #28292c;
     color: rgb(51, 51, 51);
@@ -288,7 +304,7 @@
     border-radius: 5px;
     padding: 2vw;
     margin-bottom: 5vw;
-    }
+    } */
     
     .bg-box-vip{
     background-color: rgba(255, 217, 0, 0.404);

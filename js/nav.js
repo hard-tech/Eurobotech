@@ -21,6 +21,6 @@ document.querySelector("footer").innerHTML = `
 `;
 document.querySelector(".footer").innerHTML = `
 <div class="footer-copyr text-center py-2">© 2022 Copyright by New-webTech (Ahmad JABER) :
-site v4.9
+site v5.1
 </div>  
 `;

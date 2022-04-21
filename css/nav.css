@@ -6,11 +6,10 @@
   .logo:hover{
     line-height: 50px;
     font-size: 2em;
-    text-shadow:  0 0 10px rgb(231, 231, 231);
   }
   
   nav {
-    font-family: modern;
+    font-family: 'Cagliostro', sans-serif;
     margin-bottom: 3pc;
     padding: 5px;
 
@@ -23,7 +22,6 @@
     justify-content: center;
     color: white;
   }
-  nav:hover{text-shadow:  0 0 5px rgb(231, 231, 231);}
   
   ul.nav-style {
     text-align: center;
